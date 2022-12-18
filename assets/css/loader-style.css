@@ -1,0 +1,133 @@
+
+  
+  
+  /* .button-block-animated{
+    width: 600px;
+    margin: 200px auto;
+  }
+   */
+  
+  .social-button-animated{
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+  }
+    .fab{
+      display: block;
+      background: rgba(0, 0, 0, 1);
+      text-decoration: none;
+      padding: 20px;    
+      position: absolute;
+      transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+      box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+      transition: all 0.5s ease-in-out;
+    }
+      .fa::before{
+        dislpay: block;
+        content:"";
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        left: -20px;
+        top: 10px;
+        background: rgba(0, 0, 0, 0.7);
+        transform: rotate(0deg) skewY(-45deg); 
+      }
+        
+      .fab::after{
+          dislpay: block;
+          content:"";
+          position: absolute;
+          bottom: -20px;
+          left: -10px;
+          height: 20px;
+          width: 100%;
+          transform: rotate(0deg) skewX(-45deg); 
+          background:rgba(0, 0, 0, 0.7);
+          transform: rotate(45deg) scewY(-45deg);
+      }
+      
+      .fab:hover{
+        transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+        box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+      }    
+  
+      .buttons-ani{
+        color: rgba(256, 256, 256, 1);
+        font-size: 30pt;
+        position: relative;
+      }
+  
+
+      .button-block-animated-twitter-icon-animated{
+        left: 60px;
+        top: 40px;
+       
+      }
+
+      .button-block-animated-youtube-icon-animated{
+        left: 240px;
+        bottom: 40px;
+      }
+
+      .button-block-animated-instagram-icon-animated{
+        left: 440px;
+        bottom: 120px;
+      }
+
+      .button-block-animated-github-icon-animated{
+        left: 640px;
+        bottom: 210px;
+      }
+
+    @media (min-width: 280px) and (max-width: 420px){
+       .header, .container.social-icons{
+        padding-left: 10px !important;
+        max-width: 10rem !important;
+    
+      } 
+    
+      .pt-3, .pt-3{
+        padding-top: 0px !important;
+      }
+      .buttons-ani{
+        display: none;
+      
+      }
+
+      .button-block-animated-twitter-icon-animated{
+        margin-left: 0px;
+        margin-top: 0px;
+       
+      }
+
+      .button-block-animated-youtube-icon-animated{
+        margin-left: 0px;
+        margin-top: 20px;
+      }
+
+      .button-block-animated-instagram-icon-animated{
+        margin-left: 0px;
+        margin-bottom: 0px;
+      }
+
+      .button-block-animated-github-icon-animated{
+        margin-left: 0px;
+        margin-bottom: 0px;
+      }
+    
+      .footer{
+        left: 0px;
+      }
+      .all-loader{
+        display: none;
+      }
+    
+    }
+
+    @media (min-width:450px) and (max-width:1400px) {
+      .mobile-loader{
+        display: none;
+      }
+      
+    }
