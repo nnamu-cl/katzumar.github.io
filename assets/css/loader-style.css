@@ -7,7 +7,7 @@
   }
    */
   
-  .social-button-animated{
+   .social-button-animated{
     display: inline-block;
     margin: 0px;
     cursor: pointer;
@@ -59,26 +59,28 @@
       }
   
 
-      .button-block-animated-twitter-icon-animated{
+      .twitter-fab-icon{
         left: 60px;
-        top: 40px;
+        top: 0px;
        
       }
 
-      .button-block-animated-youtube-icon-animated{
+      .youtube-fab-icon{
         left: 240px;
-        bottom: 40px;
+        bottom: 0px;
+        
       }
 
-      .button-block-animated-instagram-icon-animated{
+      .instagram-fab-icon{
         left: 440px;
-        bottom: 120px;
+        bottom: 0px;
       }
 
-      .button-block-animated-github-icon-animated{
+      .github-fab-icon{
         left: 640px;
-        bottom: 210px;
+        bottom: 0px;
       }
+      
 
     @media (min-width: 280px) and (max-width: 420px){
        .header, .container.social-icons{
@@ -125,7 +127,7 @@
     
     }
 
-    @media (min-width:450px) and (max-width:1400px) {
+    @media (min-width:450px) and (max-width:2400px) {
       .mobile-loader{
         display: none;
       }

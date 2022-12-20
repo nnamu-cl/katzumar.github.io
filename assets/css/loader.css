@@ -262,7 +262,7 @@ animation: arrows 1s var(--delay) infinite ease-in;
   }
 
 
-  @media (min-width:450px) and (max-width:1400px) {
+  @media (min-width:450px) and (max-width:2400px) {
     .mobile-loader{
       display: none;
     }

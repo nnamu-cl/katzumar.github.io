@@ -39,7 +39,7 @@ navbar-nav
 
 */
 
-@media (min-width:1000px) and (max-width: 1280px) {
+@media (min-width:1000px) and (max-width: 2280px) {
   .header, .container, .social-icons{
     margin-left: 100px;
     padding-left: 100px;
@@ -4921,7 +4921,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 2199.98px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
