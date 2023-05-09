@@ -3,6 +3,8 @@
   
   /* .button-block-animated{
     width: 600px;
+    contact
+    
     margin: 200px auto;
   }
    */
@@ -12,6 +14,7 @@
     margin: 0px;
     cursor: pointer;
   }
+  
     .fab{
       display: block;
       background: rgba(0, 0, 0, 1);
@@ -23,7 +26,7 @@
       transition: all 0.5s ease-in-out;
     }
       .fa::before{
-        dislpay: block;
+        display: block;
         content:"";
         position: absolute;
         width: 20px;
@@ -35,7 +38,7 @@
       }
         
       .fab::after{
-          dislpay: block;
+          display: block;
           content:"";
           position: absolute;
           bottom: -20px;
@@ -58,28 +61,28 @@
         position: relative;
       }
   
-
-      .twitter-fab-icon{
+      .button-block-animated-twitter-icon-animated{
         left: 60px;
-        top: 0px;
+        top: 40px;
        
       }
 
-      .youtube-fab-icon{
+      .button-block-animated-youtube-icon-animated{
         left: 240px;
-        bottom: 0px;
-        
+        bottom: 40px;
       }
 
-      .instagram-fab-icon{
+      .button-block-animated-instagram-icon-animated{
         left: 440px;
-        bottom: 0px;
+        bottom: 120px;
       }
+      .icon-styling{
+        width: auto;
+        overflow: hidden;
 
-      .github-fab-icon{
-        left: 640px;
-        bottom: 0px;
+
       }
+    
       
 
     @media (min-width: 280px) and (max-width: 420px){
